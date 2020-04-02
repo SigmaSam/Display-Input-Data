@@ -1,0 +1,197 @@
+html {
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+body {
+  background-color: #ECEEF1;
+  display: grid;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: grid;
+  justify-content: end;
+  text-align: right;
+}
+
+input {
+  text-align: left;
+  height: 34px;
+  width: 95%;
+  min-width: 160px;
+  border-radius: 4px;
+  padding-left: 10px;
+  color: #000000;
+  outline: none;
+  font-size: 1.2em;
+}
+
+footer {
+  text-align: center;
+  text-decoration: none;
+  color: #505050;
+}
+
+footer a {
+  text-align: center;
+  text-decoration: none;
+  color: #505050;
+}
+
+
+.topSign {
+  grid-column:3;
+  grid-row-start:1;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  background: #0077C5;
+  color: white;
+  margin-right: 2rem;
+  padding: 0 20px;
+  font-size: 1.125em;
+  font-weight: normal;
+  max-height: 34px;
+  box-sizing: border-box;
+}
+
+.alText {
+  grid-column: 2;
+  grid-row: 1;
+  padding-right: 1rem;
+  justify-self: end;
+  margin-top: 2px;
+  margin-bottom: 1rem;
+
+}
+
+.fPass{
+  grid-column:2;
+  grid-row: 1;
+  justify-self:end;
+  padding-right: 1rem;
+  padding-top: 1rem;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: auto;
+  grid-gap: 2rem;
+  align-content: center;
+  margin-right:  32rem;
+  margin-left:   40rem;
+  margin-bottom: 1.5rem;
+  max-width: 380px;
+  min-width: 380px;
+
+
+}
+
+.intuitLogo {
+  place-self: center;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.mint {
+  grid-column: 1;
+  grid-row: 2;
+  place-self:end;
+
+}
+
+.quickbooks {
+  grid-column: 2;
+  grid-row: 2;
+
+
+}
+
+.turbotax {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.EPP {
+  text-align: left;
+  font-size: 1.2em;
+  padding-bottom: 6px;
+}
+.signIn {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 2;
+  grid-gap: 1rem;
+  border-radius: 2px;
+  border: 1px solid #c7c7c7;
+  margin-bottom: 10rem;
+  margin-right: 32rem;
+  margin-left:   37rem;
+  min-width: 480px;
+  max-width: 480px;
+
+  background: #fff;
+  overflow: visible;
+}
+
+.signIn > div {
+  background: #fff;
+  padding: 2rem;
+}
+
+.signIn > div:last-child {
+  background-color: #ECEEF1;
+  /* padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem; */
+  position: relative;
+  font-style:italic;
+  color: grey;
+  text-align:center;
+
+}
+
+
+
+
+
+.reCAPTCHA {
+  font-size: 0.8rem;
+  font-style: italic;
+  text-align:center;
+  background-clip: content-box;
+
+}
+.createAccount::before{
+
+  content: "\1F512";
+  text-shadow: 0 0 0 blue;
+  color: transparent;
+
+  margin-right: 5px;
+
+}
+
+
+.createAccount{
+  width: 340px;
+  padding: 15px;
+  background-color: #0077c5;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 1em;
+
+}
+
+.italicText {
+
+  font-style:italic;
+  color: grey;
+  text-align:center;
+}
