@@ -1,5 +1,4 @@
-Initial Commit
-A README
+
 Microverse #2 Project ,  Main Course HTML & CSS, Sign up Forms.
 
                                           Main Preview

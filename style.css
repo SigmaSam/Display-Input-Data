@@ -5,7 +5,6 @@ html {
 body {
   background-color: #ECEEF1;
   display: grid;
-
 }
 
 a {
@@ -39,8 +38,8 @@ footer {
   text-align: center;
   text-decoration: none;
   color: #505050;
-  margin-top: 63rem;
-  margin-left: 33rem;
+  margin-top: 59rem;
+  margin-left:32rem;
 }
 
 footer a {
