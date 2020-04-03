@@ -1,8 +1,7 @@
 html {
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
-}
-body {
+}body {
   background-color: #ECEEF1;
   display: grid;
 }
@@ -152,8 +151,7 @@ text-align: left;
 
 .signIn {
   text-align: center;
-  grid-template-columns: 1;
-  grid-template-rows: 2;
+
   grid-gap: 1rem;
   border-bottom: none;
   margin-bottom: 10rem;
