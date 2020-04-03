@@ -26,14 +26,21 @@ input {
   border-radius: 4px;
   padding-left: 10px;
   color: #000000;
-  outline: none;
+  margin-top: -200px;
   font-size: 1.2em;
 }
 
+input:focus{
+border-color: blue;
+}
+
 footer {
+  position: absolute;
   text-align: center;
   text-decoration: none;
   color: #505050;
+  margin-top: 63rem;
+  margin-left: 33rem;
 }
 
 footer a {
@@ -42,6 +49,13 @@ footer a {
   color: #505050;
 }
 
+h1 {
+color: #4C4C4C;
+font-weight: 400;
+line-height: 1.1;
+font-size: 2.1rem;
+font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
 .topSign {
   grid-column:3;
@@ -51,27 +65,27 @@ footer a {
   background: #0077C5;
   color: white;
   margin-right: 2rem;
-  padding: 0 20px;
   font-size: 1.125em;
   font-weight: normal;
-  max-height: 34px;
-  box-sizing: border-box;
+  padding: 0 20px 0 20px;
+
 }
 
 .alText {
   grid-column: 2;
   grid-row: 1;
   padding-right: 1rem;
-  justify-self: end;
   margin-top: 2px;
   margin-bottom: 1rem;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: normal;
+color: #505050;
 
 }
 
 .fPass{
   grid-column:2;
   grid-row: 1;
-  justify-self:end;
   padding-right: 1rem;
   padding-top: 1rem;
 }
@@ -91,7 +105,13 @@ footer a {
 
 }
 
+.body {
+  margin-top: 3.5rem;
+  margin-left: 10rem;
+}
+
 .intuitLogo {
+  margin-left: 1rem;
   place-self: center;
   grid-column: 2;
   grid-row: 1;
@@ -120,45 +140,53 @@ footer a {
   text-align: left;
   font-size: 1.2em;
   padding-bottom: 6px;
+  font-weight: normal;
+  color: #404040;
+  line-height: 25px;
 }
+
+.EPP2 {
+  font-size: 0.9rem;
+color: #444;
+text-align: left;
+}
+
 .signIn {
   text-align: center;
-  display: grid;
   grid-template-columns: 1;
   grid-template-rows: 2;
   grid-gap: 1rem;
-  border-radius: 2px;
-  border: 1px solid #c7c7c7;
+  border-bottom: none;
   margin-bottom: 10rem;
   margin-right: 32rem;
   margin-left:   37rem;
   min-width: 480px;
   max-width: 480px;
-
+  max-height: 10rem;
   background: #fff;
   overflow: visible;
 }
 
 .signIn > div {
+  border: 1px solid #c7c7c7;
+  border-bottom: none;
   background: #fff;
   padding: 2rem;
 }
 
 .signIn > div:last-child {
+
+  border: 1px solid #c7c7c7;
+  border-top:none;
   background-color: #ECEEF1;
-  /* padding-left: 0.75rem;
-  padding-right: 0.75rem;
-  padding-top: 0.2rem;
-  padding-bottom: 0.2rem; */
   position: relative;
   font-style:italic;
   color: grey;
   text-align:center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 
 }
-
-
-
 
 
 .reCAPTCHA {
@@ -168,29 +196,19 @@ footer a {
   background-clip: content-box;
 
 }
-.createAccount::before{
-
-  content: "\1F512";
-  text-shadow: 0 0 0 blue;
-  color: transparent;
-
-  margin-right: 5px;
-
-}
-
 
 .createAccount{
-  width: 340px;
-  padding: 15px;
   background-color: #0077c5;
   color: #fff;
-  border-radius: 10px;
-  font-size: 1em;
+  border-radius: 6px;
+  font-size: 1.27em;
+  min-width: 100px;
+  padding: 12px 125px;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
 
 .italicText {
-
   font-style:italic;
   color: grey;
   text-align:center;
