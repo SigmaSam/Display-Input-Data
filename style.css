@@ -1,8 +1,10 @@
 html {
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
-}body {
-  background-color: #ECEEF1;
+}
+
+body {
+  background-color: #eceef1;
   display: grid;
 }
 
@@ -23,13 +25,13 @@ input {
   min-width: 160px;
   border-radius: 4px;
   padding-left: 10px;
-  color: #000000;
+  color: #000;
   margin-top: -200px;
   font-size: 1.2em;
 }
 
-input:focus{
-border-color: blue;
+input:focus {
+  border-color: blue;
 }
 
 footer {
@@ -38,7 +40,7 @@ footer {
   text-decoration: none;
   color: #505050;
   margin-top: 59rem;
-  margin-left:32rem;
+  margin-left: 32rem;
 }
 
 footer a {
@@ -48,19 +50,19 @@ footer a {
 }
 
 h1 {
-color: #4C4C4C;
-font-weight: 400;
-line-height: 1.1;
-font-size: 2.1rem;
-font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #4c4c4c;
+  font-weight: 400;
+  line-height: 1.1;
+  font-size: 2.1rem;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .topSign {
-  grid-column:3;
-  grid-row-start:1;
+  grid-column: 3;
+  grid-row-start: 1;
   border-radius: 4px;
   border: 1px solid #4c4c4c;
-  background: #0077C5;
+  background: #0077c5;
   color: white;
   margin-right: 2rem;
   font-size: 1.125em;
@@ -75,11 +77,12 @@ font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-seri
   margin-top: 2px;
   margin-bottom: 1rem;
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-weight: normal;
-color: #505050;
+  font-weight: normal;
+  color: #505050;
 }
-.fPass{
-  grid-column:2;
+
+.fPass {
+  grid-column: 2;
   grid-row: 1;
   padding-right: 1rem;
   padding-top: 1rem;
@@ -87,17 +90,15 @@ color: #505050;
 
 .links {
   display: grid;
-  grid-template-columns: repeat(3,1);
+  grid-template-columns: repeat(3, 1);
   grid-template-rows: auto;
   grid-gap: 2rem;
   align-content: center;
-  margin-right:  32rem;
-  margin-left:   40rem;
+  margin-right: 32rem;
+  margin-left: 40rem;
   margin-bottom: 1.5rem;
   max-width: 380px;
   min-width: 380px;
-
-
 }
 
 .body {
@@ -115,15 +116,12 @@ color: #505050;
 .mint {
   grid-column: 1;
   grid-row: 2;
-  place-self:end;
-
+  place-self: end;
 }
 
 .quickbooks {
   grid-column: 2;
   grid-row: 2;
-
-
 }
 
 .turbotax {
@@ -142,18 +140,17 @@ color: #505050;
 
 .EPP2 {
   font-size: 0.9rem;
-color: #444;
-text-align: left;
+  color: #444;
+  text-align: left;
 }
 
 .signIn {
   text-align: center;
-
   grid-gap: 1rem;
   border-bottom: none;
   margin-bottom: 10rem;
   margin-right: 32rem;
-  margin-left:   37rem;
+  margin-left: 37rem;
   min-width: 480px;
   max-width: 480px;
   max-height: 10rem;
@@ -169,29 +166,25 @@ text-align: left;
 }
 
 .signIn > div:last-child {
-
   border: 1px solid #c7c7c7;
-  border-top:none;
-  background-color: #ECEEF1;
+  border-top: none;
+  background-color: #eceef1;
   color: grey;
-  font-style:italic;
+  font-style: italic;
   position: relative;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  text-align:center;
-
+  text-align: center;
 }
-
 
 .reCAPTCHA {
   font-size: 0.8rem;
   font-style: italic;
-  text-align:center;
+  text-align: center;
   background-clip: content-box;
-
 }
 
-.createAccount{
+.createAccount {
   background-color: #0077c5;
   color: #fff;
   border-radius: 6px;
@@ -199,11 +192,10 @@ text-align: left;
   min-width: 100px;
   padding: 12px 125px;
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-
 }
 
 .italicText {
-  font-style:italic;
+  font-style: italic;
   color: grey;
-  text-align:center;
+  text-align: center;
 }
