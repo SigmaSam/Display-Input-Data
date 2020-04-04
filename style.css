@@ -87,7 +87,7 @@ color: #505050;
 
 .links {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3,1);
   grid-template-rows: auto;
   grid-gap: 2rem;
   align-content: center;
@@ -173,12 +173,12 @@ text-align: left;
   border: 1px solid #c7c7c7;
   border-top:none;
   background-color: #ECEEF1;
-  position: relative;
-  font-style:italic;
   color: grey;
-  text-align:center;
+  font-style:italic;
+  position: relative;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  text-align:center;
 
 }
 
