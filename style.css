@@ -9,7 +9,7 @@ body {
 }
 
 a {
-color: #0077C5;
+  color: #0077c5;
 }
 
 nav {
@@ -20,7 +20,6 @@ nav {
 }
 
 input {
-
   text-align: left;
   height: 34px;
   width: 95%;
@@ -37,13 +36,11 @@ input:focus {
 }
 
 footer {
-
   text-align: center;
   text-decoration: none;
   margin-top: 21rem;
-
   color: #505050;
-  font-size:10px;
+  font-size: 10px;
 }
 
 footer a {
@@ -53,7 +50,6 @@ footer a {
 }
 
 h1 {
-
   color: #4c4c4c;
   font-weight: 400;
   line-height: 1.1;
@@ -105,7 +101,6 @@ h1 {
   min-width: 380px;
 }
 
-
 .intuitLogo {
   margin-left: 1rem;
   place-self: center;
@@ -128,12 +123,13 @@ h1 {
   grid-column: 3;
   grid-row: 2;
 }
-.oneAcc{
-  text-align:center;
-  font-size:14px;
-  line-height: 0.8em;
 
+.oneAcc {
+  text-align: center;
+  font-size: 14px;
+  line-height: 0.8em;
 }
+
 .EPP {
   text-align: left;
   font-size: 14px;
@@ -150,7 +146,7 @@ h1 {
 }
 
 .signIn {
-  float:center;
+  float: center;
   text-align: center;
   grid-gap: 1rem;
   border-bottom: none;
