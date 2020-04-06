@@ -9,16 +9,18 @@ body {
 }
 
 a {
-  text-decoration: none;
+color: #0077C5;
 }
 
 nav {
   display: grid;
   justify-content: end;
   text-align: right;
+  font-size: 12px;
 }
 
 input {
+
   text-align: left;
   height: 34px;
   width: 95%;
@@ -27,7 +29,7 @@ input {
   padding-left: 10px;
   color: #000;
   margin-top: -200px;
-  font-size: 1.2em;
+  font-size: 16px;
 }
 
 input:focus {
@@ -35,12 +37,13 @@ input:focus {
 }
 
 footer {
-  position: absolute;
+
   text-align: center;
   text-decoration: none;
+  margin-top: 21rem;
+
   color: #505050;
-  margin-top: 59rem;
-  margin-left: 32rem;
+  font-size:10px;
 }
 
 footer a {
@@ -50,10 +53,11 @@ footer a {
 }
 
 h1 {
+
   color: #4c4c4c;
   font-weight: 400;
   line-height: 1.1;
-  font-size: 2.1rem;
+  font-size: 1.4rem;
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -95,16 +99,12 @@ h1 {
   grid-gap: 2rem;
   align-content: center;
   margin-right: 32rem;
-  margin-left: 40rem;
+  margin-left: 39.5%;
   margin-bottom: 1.5rem;
   max-width: 380px;
   min-width: 380px;
 }
 
-.body {
-  margin-top: 3.5rem;
-  margin-left: 10rem;
-}
 
 .intuitLogo {
   margin-left: 1rem;
@@ -128,29 +128,34 @@ h1 {
   grid-column: 3;
   grid-row: 2;
 }
+.oneAcc{
+  text-align:center;
+  font-size:14px;
+  line-height: 0.8em;
 
+}
 .EPP {
   text-align: left;
-  font-size: 1.2em;
-  padding-bottom: 6px;
+  font-size: 14px;
+  padding-bottom: 4px;
   font-weight: normal;
   color: #404040;
   line-height: 25px;
 }
 
 .EPP2 {
-  font-size: 0.9rem;
+  font-size: 10px;
   color: #444;
   text-align: left;
 }
 
 .signIn {
+  float:center;
   text-align: center;
   grid-gap: 1rem;
   border-bottom: none;
   margin-bottom: 10rem;
-  margin-right: 32rem;
-  margin-left: 37rem;
+  margin-left: 36%;
   min-width: 480px;
   max-width: 480px;
   max-height: 10rem;
