@@ -57,6 +57,13 @@ h1 {
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .topSign {
   grid-column: 3;
   grid-row-start: 1;
@@ -94,8 +101,7 @@ h1 {
   grid-template-rows: auto;
   grid-gap: 2rem;
   align-content: center;
-  margin-right: 32rem;
-  margin-left: 39.5%;
+
   margin-bottom: 1.5rem;
   max-width: 380px;
   min-width: 380px;
@@ -151,7 +157,7 @@ h1 {
   grid-gap: 1rem;
   border-bottom: none;
   margin-bottom: 10rem;
-  margin-left: 36%;
+
   min-width: 480px;
   max-width: 480px;
   max-height: 10rem;
