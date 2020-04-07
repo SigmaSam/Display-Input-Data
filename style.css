@@ -101,7 +101,6 @@ h1 {
   grid-template-rows: auto;
   grid-gap: 2rem;
   align-content: center;
-
   margin-bottom: 1.5rem;
   max-width: 380px;
   min-width: 380px;
@@ -157,7 +156,6 @@ h1 {
   grid-gap: 1rem;
   border-bottom: none;
   margin-bottom: 10rem;
-
   min-width: 480px;
   max-width: 480px;
   max-height: 10rem;
